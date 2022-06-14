@@ -1,4 +1,5 @@
 import React from 'react'
+import PhotoPost from './endpoint/PhotoPost'
 import TokenPost from './endpoint/TokenPost'
 import UserPost from './endpoint/UserPost'
 
@@ -9,6 +10,8 @@ const Api = () => {
       <UserPost />
       <h2>TOKEN POST</h2>
       <TokenPost />
+      <h2>PHOTO POST</h2>
+      <PhotoPost />
     </div>
   )
 }

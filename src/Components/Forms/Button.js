@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './Button.module.css'
 
-const Button = ({ textButton }) => {
+const Button = ({ children, ...props }) => {
   return (
-    <button className={styles.button}>
-      {textButton}
+    <button {...props} className={styles.button}>
+      {children}
     </button>
   )
 }

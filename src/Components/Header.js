@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
 import { ReactComponent as Dogs } from '../Assets/dogs.svg'
 
+
 const Header = () => {
   return (
     <header className={styles.header}>

@@ -6,14 +6,14 @@ import { ReactComponent as Stats } from '../../Assets/estatisticas.svg'
 import { ReactComponent as AddPhoto } from '../../Assets/adicionar.svg'
 import { ReactComponent as LogOut } from '../../Assets/sair.svg'
 import styles from './UserHeaderNav.module.css';
-import useMedia from '../../Hooks/userMedia'
+import useMedia from '../../Hooks/useMedia'
 
 const UserHeaderNav = () => {
 
   const { userLogout } = React.useContext(UserContext)
   const mobile = useMedia('(max-width: 40rem)')
   const [mobileMenu, setMobileMenu] = React.useState(false);
-  console.log(mobile)
+
 
 
   const { pathname } = useLocation();

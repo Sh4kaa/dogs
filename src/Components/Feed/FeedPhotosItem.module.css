@@ -42,7 +42,7 @@
   content: '';
   display: inline-block;
   margin-right: 0.25rem;
-  background: url('../../Assets/visualizacao-black.svg') no-repeat;
+  background: url('../../Assets/visualizacao.svg') no-repeat;
 }
 
 .photo:hover .visualizacao {

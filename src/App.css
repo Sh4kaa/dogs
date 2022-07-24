@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -23,8 +24,8 @@ p {
 ul,
 li {
   list-style: none;
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
 }
 
 img {
@@ -40,6 +41,11 @@ input {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 .container {
   max-width: 50rem;
   padding: 0 1rem;
@@ -50,14 +56,9 @@ input {
   margin-top: 4rem;
 }
 
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 .title {
   font-family: var(--type-second);
-  line-height: 1.5em;
+  line-height: 1;
   font-size: 3rem;
   margin: 1rem 0;
   position: relative;
@@ -67,11 +68,11 @@ a {
 .title::after {
   content: '';
   display: block;
-  position: absolute;
   width: 1.5rem;
   height: 1.5rem;
   background: #fb1;
-  bottom: 13px;
+  position: absolute;
+  bottom: 5px;
   left: -5px;
   border-radius: 0.2rem;
   z-index: -1;

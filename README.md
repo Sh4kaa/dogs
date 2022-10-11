@@ -7,6 +7,7 @@
 - Css3
 - HTML5
 - Javascript
+- VictoryJS(biblioteca de gráficos)
 
 https://dogs-by-dario.vercel.app/
 

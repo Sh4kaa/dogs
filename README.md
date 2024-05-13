@@ -2,9 +2,7 @@
 
 
 
-<div align="center">
-  <strong>🚀 Descrição 📚</strong>
-</div>
+
 
 <div align="center">
   <p>Este é um projeto de uma rede social para cachorro onde é possível adicionar fotos</p>
